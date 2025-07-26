@@ -48,8 +48,8 @@ graph TD
     A[User Query via Gradio UI] --> B[Orchestrator]
     B --> C[Query Rewriter Agent]
     C --> D[Tool Usage Agent]
-    D --> E[RAG Tool<br/>(Fanar Islamic Sources)]
-    D --> F[Internet Search Tool<br/>(Tavily)]
+    D --> E["RAG Tool\n(Fanar Islamic Sources)"]
+    D --> F["Internet Search Tool\n(Tavily)"]
     E --> G[Synthesis Agent]
     F --> G
     G --> H[Final Referenced Answer]
